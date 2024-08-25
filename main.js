@@ -21,7 +21,7 @@ const loader = new GLTFLoader();
 
 // Load the file
 loader.load(
-  `scene.gltf`,
+  `assets/scene.gltf`,
   function (gltf) {
     // If the file is loaded, add it to the scene
     object = gltf.scene;
