@@ -1,0 +1,8 @@
+{
+    "public": "public",
+    "cleanUrls": true,
+    "rewrites": [
+      { "source": "/public/:path*", "destination": "/public/:path*" }
+    ]
+  }
+  
