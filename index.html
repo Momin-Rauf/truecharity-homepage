@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueCharity</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+<body class="lg:overflow-x-hidden overflow-x-hidden md:overflow-x-hidden sm:overflow-x-hidden ">
+    <nav class="flex flex-wrap p-5 bg-black text-white text-lg">
+        <div class="flex-1">
+            Truecharity
+        </div>
+        <div class="flex flex-wrap gap-8">
+            <div class="hidden md:block">Charities</div>
+            <div class="hidden md:block">Donate</div>
+            <div class="hidden md:block">About</div>
+            <div class="hidden md:block">Contact us</div>
+        </div>
+    </nav>
+
+    <div id="particles-js" class="h-[80vh] bg-black text-white flex justify-center items-center flex-col w-full page1">
+        <h1 class="firstheading absolute md:top-[40%]  font-bold z-10 text-[100px]">TRUECHARITY</h1>
+        <h3 class="secondHeading absolute top-[40%] text-lg z-10">Donate with Confidence</h3>
+        <h2 class="mb-10 thirdheading absolute top-[70%] z-10">Transparent, Secure, Blockchain-Powered</h2>
+    </div>
+
+    <div id="page2" class="h-[100vh] w-full bg-white text-white flex flex-row bg-[linear-gradient(to_bottom,_#000,_#2a2a2a)]">
+        <h1 class="text-[50vw] relative bottom-52 font-bold text-blue-900">SECURE</h1>
+        <div class="flex flex-col">
+            <h1 class="text-[15vw] relative bottom-16 font-bold text-yellow-900 z-10">BLOCKCHAIN</h1>
+            <h1 class="text-[15vw] relative bottom-16 font-bold text-yellow-900 z-10">DONATIONS</h1>
+        </div>
+    </div>
+
+    <div id="page3" class="h-full mb-10 w-full bg-white text-white flex flex-row bg-[linear-gradient(to_bottom,_#000,_#2a2a2a)]">
+        <div style="background: url(public/pic1.jpg); background-size: cover; background-position: center;" class="mx-auto w-full h-[760px] flex flex-col gap-2 drop-shadow-md bottom-64 font-bold text-blue-900">
+            <div class="relative top-24 left-[40%]">
+                
+                <h2 class="text-[5vw] relative bottom-16 font-bold text-black z-50">Security</h2>
+                <h3 class="text-[5vw] relative bottom-14 font-bold text-black z-50">Transparency</h3>
+                <h1 class="text-[5vw] relative bottom-12 font-bold text-black z-50">Reliability</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="h-[120vh] absolute top-[558%] flex flex-col w-full">
+        
+      
+            <div id="3D" class="absolute  h-[full] z-100 bottom-2"></div>
+            <a href="https://truecharity-web3-ccw3.vercel.app/" class="absolute  border-2 h-[full] z-100 bottom-44 text-white border-white border-2 p-3 shadow-md shadow-white left-[42%] ">Donate Now</a>
+            <h1 class="glow  font-bold text-[5vw] typing">Make donation using satoshis</h1>
+
+    </div> -->
+
+    <div class="relative h-[120vh] flex flex-col w-full items-center justify-center">
+        <!-- 3D Model Container -->
+        <div id="3D" class="absolute bottom-[-200px] z-10"></div>
+    
+        <!-- Donate Now Button -->
+        <a href="https://truecharity-web3-ccw3.vercel.app/" class="absolute z-20 border-2 border-white p-3  text-white bg-black rounded-lg shadow-md bottom-2">
+            Donate Now
+        </a>
+    
+        <!-- Satoshi Donation Text -->
+        <h1 class="glow font-bold text-[5vw] typing absolute bottom-96 z-30">
+            Make donation using satoshis
+        </h1>
+        
+    </div>
+    
+    
+    
+
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
